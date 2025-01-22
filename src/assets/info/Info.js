@@ -52,7 +52,7 @@ socials: [
     icon: 'fa fa-instagram',
     label: 'instagram',
   },
-]
+],
 
   bio: "Hello! I'm Sarweshwar, a Full Stack Software Engineer and Back-End Developer from Tamil Nadu, India. 🇮🇳 I am currently studying at Karpagam Academy of Higher Education and contribute to Metaverse, our innovative student association. 🔄✨ With a strong foundation in back-end technologies like Django Rest API ⚙️🌟 and hands-on experience in Full Stack development, I create intuitive web applications and explore emerging technologies. Beyond coding, I love traveling ✈️🌍 and drawing inspiration from diverse cultures. As a motivated fresher, I'm ready to bring unique ideas and collaborate with dynamic teams. Let’s build something exceptional together! 🌟🤝",
   skills: {
