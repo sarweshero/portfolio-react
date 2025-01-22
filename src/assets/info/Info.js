@@ -26,33 +26,34 @@ export const info = {
       text: 'sarweshwardeivasihamani@gmail.com',
     },
   ],
-  socials: [
-    {
-      link: 'https://drive.google.com/file/d/1CgpeBjfsArIHH2IrvAcQTuO46drDTxs6/view?usp=sharing', // this should be https://yourname.com/resume.pdf once you've deployed
-      icon: 'fa fa-file',
-      label: 'resume',
-    },
-    {
-      link: '+916383073831',
-      icon: 'fa fa-phone',
-      label: 'Phone',
-    },
-    {
-      link: 'https://github.com/arunsarwesh/',
-      icon: 'fa fa-github',
-      label: 'github',
-    },
-    {
-      link: 'https://www.linkedin.com/in/sarweshwardeivasihamani/',
-      icon: 'fa fa-linkedin',
-      label: 'linkedin',
-    },
-    {
-      link: 'https://www.instagram.com/arunsarwesh_/',
-      icon: 'fa fa-instagram',
-      label: 'instagram',
-    },
-  ],
+socials: [
+  // {
+  //   link: 'https://drive.google.com/file/d/1CgpeBjfsArIHH2IrvAcQTuO46drDTxs6/view?usp=sharing', // this should be https://yourname.com/resume.pdf once you've deployed
+  //   icon: 'fa fa-file',
+  //   label: 'resume',
+  // },
+  {
+    link: 'tel:+916383073831', // Changes the link to a tel: scheme
+    icon: 'fa fa-phone',
+    label: 'Phone',
+  },
+  {
+    link: 'https://github.com/arunsarwesh/',
+    icon: 'fa fa-github',
+    label: 'github',
+  },
+  {
+    link: 'https://www.linkedin.com/in/sarweshwardeivasihamani/',
+    icon: 'fa fa-linkedin',
+    label: 'linkedin',
+  },
+  {
+    link: 'https://www.instagram.com/arunsarwesh_/',
+    icon: 'fa fa-instagram',
+    label: 'instagram',
+  },
+]
+
   bio: "Hello! I'm Sarweshwar, a Full Stack Software Engineer and Back-End Developer from Tamil Nadu, India. 🇮🇳 I am currently studying at Karpagam Academy of Higher Education and contribute to Metaverse, our innovative student association. 🔄✨ With a strong foundation in back-end technologies like Django Rest API ⚙️🌟 and hands-on experience in Full Stack development, I create intuitive web applications and explore emerging technologies. Beyond coding, I love traveling ✈️🌍 and drawing inspiration from diverse cultures. As a motivated fresher, I'm ready to bring unique ideas and collaborate with dynamic teams. Let’s build something exceptional together! 🌟🤝",
   skills: {
     languages: ['TypeScript', 'JavaScript', 'C++', 'C', 'Python', 'HTML/CSS'],
