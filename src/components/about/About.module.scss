@@ -1,0 +1,26 @@
+@import '../../variables.modules';
+
+.pink {
+  color: $pink;
+}
+
+.green {
+  color: $green;
+}
+
+.skills {
+  columns: 1;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
+  .container {
+    padding-left: -1px;
+    padding-right: -1px;
+  }
+  
+
+  li {
+    margin: 0;
+    line-height: 1.75;
+  }
+}
