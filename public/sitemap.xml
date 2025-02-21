@@ -7,13 +7,13 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://sarweshfolio.vercel.app/projects</loc>
+        <loc>https://sarweshfolio.vercel.app/portfolio</loc>
         <lastmod>2025-02-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sarweshfolio.vercel.app/contact</loc>
+        <loc>https://sarweshfolio.vercel.app/about</loc>
         <lastmod>2025-02-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
