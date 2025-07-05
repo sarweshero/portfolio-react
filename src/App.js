@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.module.scss';
+import './components/Tooltips.css';
 import BaseLayout from './components/BaseLayout';
 import { BrowserRouter } from 'react-router-dom';
 import { logGa } from './utils/log';

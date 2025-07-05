@@ -1,0 +1,77 @@
+/* Tooltip Global Styles */
+/* This file contains reusable tooltip styles for better consistency */
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 12px;
+  position: absolute;
+  z-index: 1001;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  font-size: 13px;
+  font-weight: normal;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.9) transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Icon hover effects */
+.hover-icon {
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+
+.hover-icon:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* Social icons specific styling */
+.social-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.social-icon-container .tooltip-text {
+  width: 120px;
+  margin-left: -60px;
+}
+
+/* Navigation specific styling */
+.nav-tooltip .tooltip-text {
+  width: 200px;
+  margin-left: -100px;
+}
+
+/* Portfolio link specific styling */
+.portfolio-link-container .tooltip-text {
+  width: 140px;
+  margin-left: -70px;
+}

@@ -88,13 +88,13 @@ socials: [
     },
   ],
   portfolio: [
-    {
-      title: 'Xyndrix SaaS Platform',
-      live: 'https://xyndrix.vercel.app/',
-      source: 'https://github.com/xyndrix',
-      image: require('../img/Portfolio.png'),
-      description: 'Secure multi-tenant application for enterprise data automation'
-    },
+    // {
+    //   title: 'Xyndrix SaaS Platform',
+    //   live: 'https://xyndrix.vercel.app/',
+    //   source: 'https://github.com/xyndrix',
+    //   image: require('../img/Portfolio.png'),
+    //   description: 'Secure multi-tenant application for enterprise data automation'
+    // },
     // {
     //   title: 'Metaverse Retail Hub',
     //   live: 'https://metaverse-retail.vercel.app/',
