@@ -4,26 +4,30 @@ import { colors } from '../colors/mainGradient';
 
 export const info = {
   firstName: ' Sarweshwar',
-  lastName: ' Deivasihamani',
+  lastName: ' (Sarweshero)',
   Portfolio: '📁',
   Aboutme: '👤',
-  initials: '🏡', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a full stack software engineer or a back-end developer.',
+  initials: '🚀', // the example uses first and last, but feel free to use three or more if you like.
+  position: 'Co-Founder at Xyndrix - Innovating the Future with Scalable Software Solutions',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
     {
-      emoji: '➤',
-      text: 'based in the Tamil Nadu, India',
+      emoji: '🚀',
+      text: 'Co-Founder at Xyndrix',
     },
     {
       emoji: '💻',
-      text: 'full stack software engineer or a back-end developer.',
+      text: 'Full-Stack Developer & Metaverse Architect',
     },
     {
       emoji: '📧',
-      text: 'sarweshwardeivasihamani@gmail.com',
+      text: 'sarweshero@gmail.com',
+    },
+    {
+      emoji: '🌐',
+      text: 'Building scalable software solutions',
     },
   ],
 socials: [
@@ -38,64 +42,72 @@ socials: [
     label: 'Phone',
   },
   {
-    link: 'https://github.com/arunsarwesh/',
+    link: 'https://github.com/sarweshero',
     icon: 'fa fa-github',
     label: 'github',
   },
   {
-    link: 'https://www.linkedin.com/in/sarweshwardeivasihamani/',
+    link: 'https://linkedin.com/in/sarweshero',
     icon: 'fa fa-linkedin',
     label: 'linkedin',
   },
   {
-    link: 'https://www.instagram.com/arunsarwesh_/',
-    icon: 'fa fa-instagram',
-    label: 'instagram',
+    link: 'https://sarweshero.vercel.app',
+    icon: 'fa fa-globe',
+    label: 'website',
   },
 ],
 
-  bio: "Hello! I'm Sarweshwar, a Full Stack Software Engineer and Back-End Developer from Tamil Nadu, India. 🇮🇳 I am currently studying at Karpagam Academy of Higher Education and contribute to Metaverse, our innovative student association. 🔄✨ With a strong foundation in back-end technologies like Django Rest API ⚙️🌟 and hands-on experience in Full Stack development, I create intuitive web applications and explore emerging technologies. Beyond coding, I love traveling ✈️🌍 and drawing inspiration from diverse cultures. As a motivated fresher, I'm ready to bring unique ideas and collaborate with dynamic teams. Let’s build something exceptional together! 🌟🤝",
+  bio: "Hello! I'm Sarweshwar (Sarweshero), Co-Founder of Xyndrix, a software solutions company driving innovation in web applications, AI-powered platforms, and immersive Metaverse experiences. 🚀 With a strong foundation in full-stack development, backend architecture, and cloud-native systems, I specialize in building high-performance digital infrastructure that scales. 💻⚡ My expertise spans across modern web technologies, from React.js and Django to Web3 and Solidity for blockchain integration. At Xyndrix, we're pioneering the future of digital experiences, combining cutting-edge technology with practical business solutions. Let's build the next generation of scalable software together! 🌟🤝",
   skills: {
-    languages: ['TypeScript', 'JavaScript', 'C++', 'C', 'Python', 'HTML/CSS'],
-    frameworks: ['React', 'Tailwind CSS', 'Bootstrap', 'Django', 'TensorFlow', 'PyTorch', 'Keras'],
-    databases: ['MySQl', 'Postgres', 'SQLite', 'MongoDB'],
-    tools: ['Git', 'Postman', 'Docker', 'npm', 'yarn', 'Jupiter Notebook', 'VS Code'],
+    languages: ['Python', 'JavaScript', 'TypeScript', 'Solidity', 'HTML/CSS'],
+    frameworks: ['React.js', 'Django', 'FastAPI', 'Tailwind CSS', 'Vite', 'Web3'],
+    databases: ['PostgreSQL', 'Redis', 'MongoDB', 'SQLite'],
+    tools: ['Docker', 'GitHub Actions', 'Git', 'Postman', 'VS Code', 'Three.js', 'WebXR'],
   },
   hobbies: [
     {
-      label: 'Cartoons',
-      emoji: '🎞',
+      label: 'Metaverse Development',
+      emoji: '🌐',
     },
     {
-      label: 'Cricket',
-      emoji: '🏏',
+      label: 'AI Research',
+      emoji: '🤖',
     },
     {
       label: 'Coding',
       emoji: '💻',
-        },
-    {
-      label: 'Online Games',
-      emoji: '🎮',
     },
     {
-      label: 'Traveling',
-      emoji: '✈️',
+      label: 'Innovation',
+      emoji: '🚀',
+    },
+    {
+      label: 'Tech Entrepreneurship',
+      emoji: '💡',
     },
   ],
   portfolio: [
     {
-      title: 'Portfolio Website',
-      live: '#', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/arunsarwesh/portfolio-react', // this should be a link to the **repository** of the project, where the code is hosted.
+      title: 'Xyndrix SaaS Platform',
+      live: 'https://xyndrix.vercel.app/',
+      source: 'https://github.com/xyndrix',
       image: require('../img/Portfolio.png'),
+      description: 'Secure multi-tenant application for enterprise data automation'
     },
+    // {
+    //   title: 'Metaverse Retail Hub',
+    //   live: 'https://metaverse-retail.vercel.app/',
+    //   source: 'https://github.com/sarweshero/metaverse-retail',
+    //   image: require('../img/Meta-Management.png'),
+    //   description: 'Interactive virtual storefront built with WebXR and Three.js'
+    // },
     {
-      title: 'Meta-TaskManagent',
-      live: 'https://studverse2k23.netlify.app/',
-      source: 'https://github.com/Munish0204/Student-login',
-      image: require('../img/Meta-Management.png'),
+      title: 'Alumni Connect Portal',
+      live: 'https://karpagamalumni.in/',
+      source: 'https://github.com/Nithisx/Alumini-Admin/tree/pro',
+      image: require('../img/Portfolio.png'),
+      description: 'Django + React-powered social network for academic institutions'
     },
-   
   ],
 };

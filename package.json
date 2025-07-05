@@ -1,6 +1,14 @@
 {
-  "name": "luv-portfolio",
-  "version": "2.0.0",
+  "name": "sarweshero-portfolio",
+  "version": "3.0.0",
+  "description": "Sarweshwar (Sarweshero) - Co-Founder at Xyndrix | Portfolio showcasing full-stack development, AI platforms, and Metaverse experiences",
+  "author": "Sarweshwar (Sarweshero) <sarweshero@gmail.com>",
+  "homepage": "https://sarweshero.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarweshero/portfolio-react"
+  },
+  "keywords": ["portfolio", "react", "sarweshwar", "sarweshero", "xyndrix", "metaverse", "fullstack", "developer"],
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -32,7 +40,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -47,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "^2.8.4"
   }
 }

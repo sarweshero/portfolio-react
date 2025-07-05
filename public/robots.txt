@@ -1,6 +1,13 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
 Allow: /
 
-Sitemap: https://sarweshfolio.vercel.app/sitemap.xml
+# SEO-friendly portfolio
+Disallow: /admin/
+Disallow: /private/
+Disallow: *.json
+
+# Sitemap location
+Sitemap: https://sarweshero.vercel.app/sitemap.xml
+
+# Crawl delay (be respectful)
+Crawl-delay: 1

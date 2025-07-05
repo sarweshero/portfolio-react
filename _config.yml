@@ -1,0 +1,65 @@
+# GitHub Pages Configuration for Sarweshwar (Sarweshero) Portfolio
+
+# Site settings
+title: "Sarweshwar (Sarweshero) - Co-Founder at Xyndrix"
+description: "Co-Founder of Xyndrix, driving innovation in web applications, AI-powered platforms, and immersive Metaverse experiences. Expert in full-stack development and scalable software solutions."
+url: "https://sarweshero.github.io"
+baseurl: "/portfolio-react"
+author: "Sarweshwar (Sarweshero)"
+email: "sarweshero@gmail.com"
+
+# SEO settings
+lang: en-US
+timezone: Asia/Kolkata
+
+# Social profiles
+github_username: sarweshero
+linkedin_username: sarweshero
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO plugin settings
+twitter:
+  username: sarweshero
+  card: summary_large_image
+
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+
+social:
+  name: Sarweshwar (Sarweshero)
+  links:
+    - https://github.com/sarweshero
+    - https://linkedin.com/in/sarweshero
+    - https://sarweshero.vercel.app
+
+# Google Analytics (add your tracking ID)
+google_analytics: 
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Include files
+include:
+  - _redirects
+  - .htaccess
